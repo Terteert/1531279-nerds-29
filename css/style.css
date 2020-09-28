@@ -30,6 +30,7 @@ body {
     background: #ffffff;
     min-width: 1440px;
     height: 100%;
+    margin: 0px;
 }
 
 a {
@@ -54,12 +55,14 @@ img {
 }
 
 .site-nav li {
+    display: inline-block;
     color: var(--basic-black);
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 30px;
     text-transform: uppercase;
+    margin-right: 45px;
 }
 
 .basket {
@@ -71,9 +74,14 @@ img {
 
 .main-header {
     background-color: var(--basic-whitegray);
-
+    display: flex;
+    justify-content: space-between;
 }
 
+.slider {
+    background-color: #eeeeee;
+    margin: 0px;
+}
 .slide-element a {
     color: var(--basic-white);
     font-style: normal;
@@ -82,10 +90,12 @@ img {
     line-height: 18px;
     background-color: var(--red); 
     border-radius: 3px;
+    margin: 0px;
 }
 
 .slide-element {
     text-transform: none;
+    margin: 0px ;
 }
 
 .service-item h3 {
@@ -95,6 +105,11 @@ img {
     font-size: 24px;
     line-height: 30px;
     text-transform: uppercase;
+}
+
+.service {
+    display: flex;
+    justify-content: space-between;
 }
 
 .service-item p {
@@ -131,6 +146,8 @@ img {
 .features {
     border-bottom: 2px #eeeeee solid;
     border-top: 2px #eeeeee solid;
+    display: flex;
+    justify-content: space-between;
 }
 
 .features-text h2 {
@@ -191,6 +208,12 @@ img {
     text-transform: uppercase;
 }
 
+.project {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .project-list {
     list-style: none;
 }
@@ -215,9 +238,14 @@ img {
     background-color: #FB565A;
 }
 
+.footer {
+    display: flex;
+}
+
 .social-list {
     list-style: none;
     display: flex;
+    justify-content: space-between;
 }
 .social-list li {
     width: 81px;
@@ -225,6 +253,24 @@ img {
     border-radius: 50%;
     background-color: #e1e1e1;
     font-size: 0;
+}
+
+.social-list .vk {
+    background-image: url(img/vk-icon.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.social-list .inst{
+    background-image: url(img/insta-icon.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.social-list .fb {
+    background-image: url(img/fb-icon.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
 }
 
 .footer-social-features p {
@@ -345,4 +391,13 @@ img {
 .social-item:active {
     background-color: #D7373B;
     box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
+}
+
+.catalog-h1 {
+    background-color: #eee;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
 }
