@@ -107,9 +107,9 @@ img {
     text-transform: uppercase;
 }
 
-.service {
+.services {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
 }
 
 .service-item p {
@@ -200,6 +200,12 @@ img {
     text-transform: none;
 }
 
+.features-table th:not(sup) {
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 64px;
+}
+
 .features-block-right p {
     font-style: normal;
     font-weight: bold;
@@ -238,6 +244,12 @@ img {
     background-color: #FB565A;
 }
 
+.contacts h1 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+}
+
 .footer {
     display: flex;
 }
@@ -273,6 +285,10 @@ img {
     background-position: 50% 50%;
 }
 
+.footer-social-features {
+    margin-left: 139px;
+}
+
 .footer-social-features p {
     font-style: normal;
     font-weight: normal;
@@ -284,6 +300,10 @@ img {
 
 .footer-social-features h3 {
     text-transform: none;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 36px;
+    width: 660px;
 }
 
 .sorting-list {
@@ -348,10 +368,9 @@ img {
     color: #FB565A;
 }
 
-.site-nav li:active,
+.site-nav a:active,
 .basket:active {
-    color: #000000;
-    opacity: 0.3;
+    color: rgba(0, 0, 0, 0.3);
 }
 
 .red-btn:hover {
@@ -361,7 +380,7 @@ img {
 .red-btn:active {
     background: #D7373B;
     box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
-    opacity: 0.3;
+    color: rgba(255, 255, 255, 0.3);
 }
 
 .green-btn:hover {
@@ -369,9 +388,9 @@ img {
 }
 
 .green-btn:active {
-    opacity: 0.3;
     background: #00AA62;
     box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
+    color: rgba(255, 255, 255, 0.3);
 }
 
 .yellow-btn:hover {
@@ -379,9 +398,9 @@ img {
 }
 
 .yellow-btn:active {
-    opacity: 0.3;
     background: #E5A722;
     box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
+    color: rgba(255, 255, 255, 0.3);
 }
 
 .social-item:hover {
@@ -400,4 +419,18 @@ img {
 .content {
     display: flex;
     flex-wrap: wrap;
+}
+
+.main-header-logo:active {
+    opacity: 0.3;
+}
+
+.footer-social {
+    width: 261px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-footer {
+    display: flex;
 }
