@@ -1,3 +1,28 @@
+:root {
+    --basic-black: #000;
+    --basic-white: #fff;
+    --basic-red: #fb565a;
+    --red-hover: #E74246;
+    --red-active: #D7373B;
+    --basic-green: #00CA74;
+    --green-hover: #00BC6C;
+    --green-active: #00AA62;
+    --basic-yellow: #EFC849;
+    --yellow-hover: #EAB534;
+    --yellow-active: #E5A722;
+    --basic-white-gray: #eee;
+    --dot-grey: #c1c1c1;
+    --text-light-grey: #666;
+    --social-grey: #e1e1e1;
+    --text-grey: #444444;
+    --text-dark-grey: #283136;
+    --range-light-grey: #f1f1f1;
+    --range-grey: #d7dcde;
+    --range-dark-grey: #ababab;
+    --catalog-white: #f2f2f2;
+    --catalog-dark-grey: #4d4d4d;
+    --catalog-grey-active: #d5d5d5;
+}
 
 .button {
     display: block;
@@ -6,7 +31,7 @@
     line-height: 18px;
     text-decoration: none;
     text-transform: uppercase;
-    color: #fff;
+    color: var(--basic-white);
     padding-top: 17px;
     padding-bottom: 15px;
     text-align: center;
@@ -20,15 +45,15 @@
 }
 
 .red {
-    background-color: #fb565a;
+    background-color: var(--basic-red);
 }
 
 .green {
-    background-color: #00CA74;
+    background-color: var(--basic-green);
 }
 
 .yellow {
-    background-color: #EFC849;
+    background-color: var(--basic-yellow);
 }
 
 /** global **/
@@ -41,7 +66,7 @@
 /** header **/
 
 .main-header {
-    background-color: #EEEEEE;
+    background-color: var(--basic-white-gray);
 }
 
 .header {
@@ -84,7 +109,7 @@
 .list-element-active::before {
     content: "";
     position: absolute;
-    background: #fb565a;
+    background: var(--basic-red);
     height: 2px;
     width: 100%;
     bottom: -24px;
@@ -100,14 +125,14 @@
 
 .menu-item {
     font-weight: 500;
-    color: #000;
+    color: var(--basic-black);
     text-decoration: none;
 }
 
 /** basket **/
 
 .basket {
-    color: #000;
+    color: var(--basic-black);
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -127,7 +152,7 @@
 /** slider (slide-elements) **/
 
 .slider {
-    background-color: #eee;
+    background-color: var(--basic-white-gray);
     position: relative;
 }
 
@@ -170,12 +195,12 @@
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
-    color: #283136;
+    color: var(--text-dark-grey);
 }
 
 .slide-button /** a **/{
     width: 240px;
-    background-color: #fb565a;
+    background-color: var(--basic-red);
     margin-top: 38px;
 }
 
@@ -199,7 +224,7 @@
     vertical-align: top;
     border-radius: 50%;
     box-sizing: border-box;
-    background-color: #fff;
+    background-color: var(--basic-white);
     margin: 0 6px;
 }
 
@@ -208,14 +233,14 @@
     position: absolute;
     width: 4px;
     height: 4px;
-    background-color: #fff;
+    background-color: var(--basic-white);
     border-radius: 50%;
     top: 2px;
     right: 2px;
 }
 
 .dot-active {
-    background-color: #c1c1c1;
+    background-color: var(--dot-grey);
 }
 
 /** features **/
@@ -243,7 +268,7 @@
 .features-item p {
     width: 260px;
     line-height: 24px;
-    color: #283136;
+    color: var(--text-dark-grey);
 }
 
 .button-order {
@@ -277,7 +302,7 @@
     line-height: 28px;
     margin-top: 40px;
     margin-bottom: 23px;
-    color: #283136;
+    color: var(--text-dark-grey);
 }
 
 .desc-title {
@@ -291,7 +316,7 @@
 
 .desc-slogan {
     line-height: 24px;
-    color: #283136;
+    color: var(--text-dark-grey);
 }
 
 .desc-list {
@@ -302,7 +327,7 @@
 .desc-list li {
     position: relative;
     padding-bottom: 30px;
-    color: #283136;
+    color: var(--text-dark-grey);
 }
 
 .desc-list li::before {
@@ -312,7 +337,7 @@
     position: absolute;
     width: 25px;
     height: 2px;
-    background-color: #fb565a;
+    background-color: var(--basic-red);
 }
 
 .stat-title {
@@ -350,7 +375,7 @@
 }
 
 .stat_table-row td {
-    color: #283136;
+    color: var(--text-dark-grey);
     padding: 0px;
 }
 
@@ -393,7 +418,7 @@
 
 .address-container {
     box-sizing: border-box;
-    background-color: #fff;
+    background-color: var(--basic-white);
     width: 320px;
     height: 310px;
     z-index: 40;
@@ -407,7 +432,7 @@
 }
 
 .address-map {
-    background-color: #eee;
+    background-color: var(--basic-white-gray);
     height: 416px;
 }
 
@@ -424,7 +449,7 @@
     font-weight: normal;
     font-size: 16px;
     line-height: 18px;
-    color: #666;
+    color: var(--text-light-grey);
     width: 205px;
 }
 
@@ -460,7 +485,7 @@
     height: 81px;
     font-size: 0px;
     border-radius: 50%;
-    background-color: #E1E1E1;
+    background-color: var(--social-grey);
 }
 
 .vk {
@@ -493,7 +518,7 @@
     font-weight: normal;
     font-size: 16px;
     line-height: 22px;
-    color: #444444;
+    color: var(--text-grey);
     margin: 10px 0 0 0;
 }
 
@@ -501,7 +526,7 @@
 
 .catalog_title {
     text-align: center;
-    background-color: #eee;
+    background-color: var(--basic-white-gray);
     padding-top: 65px;
     padding-bottom: 110px;
     margin: 0 0 7px 0;
@@ -559,19 +584,19 @@
     padding-top: 39px;
     padding-right: 20px;
     padding-left: 20px;
-    background-color: #f1f1f1;
+    background-color: var(--range-light-grey);
     border-radius: 5px;
 }
   
   .range-controls .scale {
     height: 2px;
-    background: #d7dcde;
+    background: var(--range-grey);
 }
   
   .range-controls .bar {
     width: 70%;
     height: 2px;
-    background: #00ca74;
+    background: var(--basic-green);
 }
   
   .range-controls .toggle {
@@ -582,7 +607,7 @@
     height: 4px;
     padding: 0;
     border: 8px solid #ffffff;
-    background-color: #ababab;
+    background-color: var(--range-dark-grey);
     border-radius: 50%;
     box-shadow: 0 2px 1px 0 #cfcfcf;
     cursor: pointer;
@@ -613,10 +638,10 @@
     padding: 10px;
     margin-left: 10px;
     text-align: center;
-    color: #283136;
+    color: var(--text-dark-grey);
     border: none;
     border-radius: 5px;
-    background: #f1f1f1;
+    background: var(--range-light-grey);
     font-family: inherit;
     font-size: inherit;
 }
@@ -633,7 +658,7 @@
     line-height: 20px;
     display: block;
     cursor: pointer;
-    color: #283136;
+    color: var(--text-dark-grey);
     padding-bottom: 20px;
     padding-left: 37px;
 }
@@ -709,7 +734,7 @@ input[type=checkbox]:checked + label::before {
     text-transform: uppercase;
     width: 260px;
     min-height: 50px;
-    background-color: #eee;
+    background-color: var(--basic-white-gray);
     border: 0;
     cursor: pointer;
     border-radius: 3px;
@@ -754,12 +779,12 @@ input[type=checkbox]:checked + label::before {
 
 .sort-item a {
     text-decoration: none;
-    color: #000;
+    color: var(--basic-black);
     opacity: 0.3;
 }
 
 .sort-item-active a {
-    color: #000;
+    color: var(--basic-black);
     opacity: 1;
 }
 
@@ -804,7 +829,7 @@ input[type=checkbox]:checked + label::before {
     margin-right: 38px;
     margin-bottom: 65px;
     position: relative;
-    background-color: #f2f2f2;
+    background-color: var(--catalog-white);
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     box-sizing: border-box;
@@ -823,7 +848,7 @@ input[type=checkbox]:checked + label::before {
     position: absolute;
     height: 231px;
     width: 100%;
-    background-color: #eee;
+    background-color: var(--basic-white-gray);
     box-sizing: border-box;
     z-index: 10;
     bottom: 0px;
@@ -856,7 +881,7 @@ input[type=checkbox]:checked + label::before {
     font-weight: normal;
     font-size: 16px;
     line-height: 18px;
-    color: #666;
+    color: var(--text-light-grey);
     display: inline-block;
     vertical-align: middle;
 }
@@ -864,7 +889,7 @@ input[type=checkbox]:checked + label::before {
 .hover-button {
     width: 200px;
     border: 0;
-    background-color: #fb565a;
+    background-color: var(--basic-red);
     margin: 0 auto;
     margin-top: 32px;
 }
@@ -876,7 +901,7 @@ input[type=checkbox]:checked + label::before {
     height: 40px;
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
-    background-color: #eee;
+    background-color: var(--basic-white-gray);
     top: -39px;
 }
 
@@ -886,7 +911,7 @@ input[type=checkbox]:checked + label::before {
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    background-color: #fff;
+    background-color: var(--basic-white);
     left: 50px;
     top: -25px;
     box-shadow: 25px 0 0 0 #fff, -25px 0 0 0 #fff;
@@ -899,19 +924,19 @@ input[type=checkbox]:checked + label::before {
     font-size: 16px;
     line-height: 18px;  
     padding: 17px 20px 15px 20px;
-    background-color: #eee;
+    background-color: var(--basic-white-gray);
     border-radius: 3px;
     box-sizing: border-box;
     height: 50px;
     text-decoration: none;
     vertical-align: top;
     margin-right: 11px;
-    color: #000;
+    color: var(--basic-black);
  }
 
  .paginator-active {
      border: 3px solid #DBDBDB;
-     background-color: #fff;
+     background-color: var(--basic-white);
      padding: 14px 17px 12px 20px;
  }
 
@@ -929,23 +954,23 @@ input[type=checkbox]:checked + label::before {
  /** hover **/
 
 .menu-item:hover {
-    color: #FB565A;
+    color: var(--basic-red);
 }
 
 .red:hover {
-    background-color: #E74246;
+    background-color: var(--red-hover);
 }
 
 .social-item:hover {
-    background-color: #E74246;
+    background-color: var(--red-hover);
 }
 
 .green:hover {
-    background: #00BC6C;
+    background: var(--green-hover);
 }
 
 .yellow:hover {
-    background: #EAB534;
+    background: var(--yellow-hover);
 }
 
 .project-item:hover {
@@ -985,11 +1010,11 @@ input[type=checkbox]:checked + label:hover::before {
 }
 
 .catalog-title:hover {
-    color: #FB565A;
+    color: var(--basic-red);
 }
 
 .catalog-item:hover::before {
-    background-color: #4d4d4d;
+    background-color: var(--catalog-dark-grey);
 }
 
 .catalog-item:hover .catalog-hover {
@@ -1008,24 +1033,24 @@ input[type=checkbox]:checked + label:hover::before {
  /** active **/
 
 .menu-item:active {
-    color: #000;
+    color: var(--basic-black);
     opacity: 0.3;
 }
 
 .red:active {
-    background: #D7373B;
+    background: var(--red-active);
     box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
     color: rgb(100%, 100%, 100%, 0.3);
 }
 
 .green:active {
-    background: #00AA62;
+    background: var(--green-active);
     box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
     color: rgb(100%, 100%, 100%, 0.3);
 }
 
 .yellow:active {
-    background: #E5A722;
+    background: var(--yellow-active);
     box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
     color: rgb(100%, 100%, 100%, 0.3);
 }
@@ -1058,13 +1083,13 @@ input[type=checkbox]:checked + label:hover::before {
 }
 
 .filter-button:active {
-    background: #D5D5D5;
+    background: var(--catalog-grey-active);
     box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
     color: rgba(0, 0, 0, 0.3);
 }
 
 .paginator-item:active {
-    background: #D5D5D5;
+    background: var(--catalog-grey-active);
     box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
     color: rgba(0, 0, 0, 0.3);
 }
@@ -1078,7 +1103,7 @@ input[type=checkbox]:checked + label:hover::before {
 }
 
 .catalog-title:active {
-    color: #000;
+    color: var(--basic-black);
     opacity: 0.3;
 }
 
@@ -1121,7 +1146,7 @@ input[type=checkbox]:checked + label:active::before {
     top: 50%;
     left: 50%;
     z-index: 100;
-    background-color: #fff;
+    background-color: var(--basic-white);
     box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.4);
     box-sizing: border-box;
     margin-top: -300px;
@@ -1191,7 +1216,7 @@ input[type=checkbox]:checked + label:active::before {
     box-sizing: border-box;
     font-size: 16px;
     line-height: 18px;
-    color: #444444;
+    color: var(--text-grey);
     opacity: 0.5;
     padding: 16px;
     border: 2px solid #D7DCDE;
