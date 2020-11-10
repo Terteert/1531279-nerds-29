@@ -47,7 +47,7 @@
 .header {
     display: flex;
     justify-content: space-between;
-    padding-top: 49px;
+    padding-top: 64px;
 }
 
 .header-control {
@@ -78,6 +78,7 @@
     text-decoration: none;
     margin-right: 45px;
     position: relative;
+    vertical-align: middle;
 }
 
 .list-element-active::before {
@@ -120,7 +121,7 @@
 }
 
 .basket img {
-    padding-right: 25px;
+    padding-right: 22px;
 }
 
 /** slider (slide-elements) **/
@@ -137,32 +138,32 @@
 }
 
 .slide-item1 {
-    background-image: url(D:/project/1531279-nerds-29/img/nerds-index-slide1-1.png);
+    background-image: url(../img/nerds-index-slide1-1.png);
     background-repeat: no-repeat;
-    background-position: 100% -5px;
+    background-position: 100% -3px;
 }
 
 .slide-item2 {
     display: none;
     visibility: hidden;
-    background-image: url(D:/project/1531279-nerds-29/img/nerds-index-slide2-1.png);
+    background-image: url(../img/nerds-index-slide2-1.png);
     background-repeat: no-repeat;
-    background-position: 100% -5px;
+    background-position: 100% -3px;
 }
 
 .slide-item3 {
     display: none;
     visibility: hidden;
-    background-image: url(D:/project/1531279-nerds-29/img/nerds-index-slide3-1.png);
+    background-image: url(../img/nerds-index-slide3-1.png);
     background-repeat: no-repeat;
-    background-position: 100% -5px;
+    background-position: 100% -3px;
 }
 
 .slide-head /** h **/{
     font-weight: 500;
     font-size: 55px;
     line-height: 55px;
-    margin-top: 0px;
+    margin: 0 0 25px 0;
 }
 
 .slide-content /** p **/{
@@ -175,6 +176,7 @@
 .slide-button /** a **/{
     width: 240px;
     background-color: #fb565a;
+    margin-top: 38px;
 }
 
 .slider-dots {
@@ -227,6 +229,7 @@
 
 .features-item {
     width: 300px;
+    margin-right: 100px;
 }
 
 .features-item h3 {
@@ -234,6 +237,8 @@
     font-weight: bold;
     font-size: 24px;
     line-height: 30px;
+    margin-top: 20px;
+    margin-bottom: 16px;
 }
 .features-item p {
     width: 260px;
@@ -250,7 +255,7 @@
 
 .description {
     padding-top: 40px;
-    padding-bottom: 75px;
+    padding-bottom: 28px;
     border-bottom: 2px solid #eee;
     display: flex;
     justify-content: space-between;
@@ -269,7 +274,7 @@
     text-transform: uppercase;
     font-weight: bold;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 28px;
     margin-top: 40px;
     margin-bottom: 23px;
     color: #283136;
@@ -291,11 +296,12 @@
 
 .desc-list {
     list-style: none;
+    padding: 0 0 0 35px;
 }
 
 .desc-list li {
     position: relative;
-    padding-bottom: 25px;
+    padding-bottom: 30px;
     color: #283136;
 }
 
@@ -317,11 +323,23 @@
 }
 
 .stat-table {
-    margin-top: 35px;
+    margin-top: 20px;
 }
 
 .stat_table-row sup {
     font-size: 26px;
+}
+
+.th-1 {
+    padding: 0 20px 10px 0;
+}
+
+.th-2 {
+    padding: 0 18px 10px 0;
+}
+
+.th-3 {
+    padding: 0 0 10px 0;
 }
 
 .stat_table-row th {
@@ -329,19 +347,18 @@
     font-size: 45px;
     line-height: 64px;
     text-align: left;
-    padding-bottom: 10px;
 }
 
 .stat_table-row td {
     color: #283136;
+    padding: 0px;
 }
 
 /** project **/
 
 .project {
     display: flex;
-    justify-content: space-between;
-    padding: 46px 41px 44px 32px;
+    padding: 46px 41px 40px 32px;
     align-items: center;
     border-bottom: 2px solid #eee;
     margin-bottom: 80px;
@@ -350,6 +367,19 @@
 .project-item {
     opacity: 0.2;
 }
+
+.project-item-1 {
+    margin-right: 95px;
+}
+
+.project-item-2 {
+    margin-right: 104px;
+}
+
+.project-item-3 {
+    margin-right: 120px;
+}
+
 
 /** address **/
 
@@ -370,18 +400,22 @@
     padding: 50px;
     position: absolute;
     top: 54px;
-    left: 140px;
+    left: 250px;
+    right: 0px;
+    bottom: 0px;
+    margin: 0 0 0 0;
 }
 
 .address-map {
     background-color: #eee;
+    height: 416px;
 }
 
 .address-title {
     font-weight: bold;
     font-size: 18px;
     line-height: 30px;
-    margin: 0px;
+    margin: 0 0 23px 0;
     padding: 0px;
 }
 
@@ -430,20 +464,20 @@
 }
 
 .vk {
-    background-image: url(D:/project/1531279-nerds-29/img/vk-icon.svg);
+    background-image: url(../img/vk-icon.svg);
     background-position: 50% 50%;
     background-repeat: no-repeat;
-}*
+}
 
 .fb {
-    background-image: url(D:/project/1531279-nerds-29/img/fb-icon.svg);
+    background-image: url(../img/fb-icon.svg);
     background-position: 50% 50%;
     background-repeat: no-repeat;
 }
 
 
 .insta {
-    background-image: url(D:/project/1531279-nerds-29/img/insta-icon.svg);
+    background-image: url(../img/insta-icon.svg);
     background-position: 50% 50%;
     background-repeat: no-repeat;
 }
@@ -460,6 +494,7 @@
     font-size: 16px;
     line-height: 22px;
     color: #444444;
+    margin: 10px 0 0 0;
 }
 
 /** catalog **/
@@ -467,9 +502,9 @@
 .catalog_title {
     text-align: center;
     background-color: #eee;
-    padding-top: 80px;
+    padding-top: 65px;
     padding-bottom: 110px;
-    margin: 0;
+    margin: 0 0 7px 0;
     font-weight: 500;
     font-size: 55px;
     line-height: 55px;
@@ -504,6 +539,10 @@
 
 .filter-range {
     padding-top: 50px;
+}
+
+.filter-item-range {
+    margin-bottom: 3px;
 }
   
   .filter-item legend {
@@ -595,7 +634,7 @@
     display: block;
     cursor: pointer;
     color: #283136;
-    padding-bottom: 25px;
+    padding-bottom: 20px;
     padding-left: 37px;
 }
 
@@ -614,7 +653,7 @@
     top: -5px;
     left: 0;
     position: absolute;
-    background-image: url(D:/project/1531279-nerds-29/img/Shape-oval.svg);
+    background-image: url(../img/shape-oval.svg);
     opacity: 0.4;
 }
 
@@ -625,12 +664,12 @@ input[type=radio]:checked + label::before {
     top: -5px;
     left: 0;
     position: absolute;
-    background-image: url(D:/project/1531279-nerds-29/img/radio-on.svg);
+    background-image: url(../img/radio-on.svg);
     opacity: 0.4;
 }
 
 .filter-title {
-    padding-bottom: 50px;
+    padding: 0px 0px 20px 0px;
 }
 
 .filter-check {
@@ -648,7 +687,7 @@ input[type=radio]:checked + label::before {
     top: 0;
     left: 0;
     position: absolute;
-    background-image: url(D:/project/1531279-nerds-29/img/Shape-checkbox.svg);
+    background-image: url(../img/shape-checkbox.svg);
     opacity: 0.4;
 }
 
@@ -659,7 +698,7 @@ input[type=checkbox]:checked + label::before {
     top: 0;
     left: 0;
     position: absolute;
-    background-image: url(D:/project/1531279-nerds-29/img/checkbox-on.svg);
+    background-image: url(../img/checkbox-on.svg);
     opacity: 0.4;
 }
 
@@ -702,6 +741,7 @@ input[type=checkbox]:checked + label::before {
     line-height: 18px;
     font-weight: 600;
     margin-right: 240px;
+    vertical-align: middle;
 }
 
 .sort-item {
@@ -709,6 +749,7 @@ input[type=checkbox]:checked + label::before {
     font-size: 14px;
     line-height: 18px;
     margin-left: 25px;
+    vertical-align: middle;
 }
 
 .sort-item a {
@@ -731,19 +772,20 @@ input[type=checkbox]:checked + label::before {
 .catalog-toggle {
     display: inline-block;
     cursor: pointer;
+    vertical-align: middle;
 }
 
 .down {
     width: 11px;
     height: 10px;
     margin-right: 18px;
-    background-image: url(D:/project/1531279-nerds-29/img/icon-down-dir.svg);
+    background-image: url(../img/icon-down-dir.svg);
 }
 
 .up {
     width: 11px;
     height: 10px;
-    background-image: url(D:/project/1531279-nerds-29/img/icon-down-dir.svg);
+    background-image: url(../img/icon-down-dir.svg);
     opacity: 0.3;
     cursor: auto;
     transform: rotate(180deg);
@@ -760,7 +802,7 @@ input[type=checkbox]:checked + label::before {
 
 .catalog-item {
     margin-right: 38px;
-    margin-bottom: 72px;
+    margin-bottom: 65px;
     position: relative;
     background-color: #f2f2f2;
     border: 1px solid rgba(0, 0, 0, 0.1);
@@ -770,6 +812,11 @@ input[type=checkbox]:checked + label::before {
 
 .catalog-item:nth-child(2n) {
     margin-right: 0;
+}
+
+.catalog-item:nth-child(5n),
+.catalog-item:nth-child(6n) {
+    margin-bottom: 55px;
 }
 
 .catalog-hover {
@@ -796,7 +843,7 @@ input[type=checkbox]:checked + label::before {
 .catalog-title {
     text-align: center;
     text-transform: uppercase;
-    margin: 0;
+    margin: 0 0 7px 0;
     font-weight: bold;
     font-size: 18px;
     line-height: 30px;
@@ -811,6 +858,7 @@ input[type=checkbox]:checked + label::before {
     line-height: 18px;
     color: #666;
     display: inline-block;
+    vertical-align: middle;
 }
 
 .hover-button {
@@ -850,7 +898,7 @@ input[type=checkbox]:checked + label::before {
     font-weight: 500;
     font-size: 16px;
     line-height: 18px;  
-    padding: 15px 20px;
+    padding: 17px 20px 15px 20px;
     background-color: #eee;
     border-radius: 3px;
     box-sizing: border-box;
@@ -862,8 +910,9 @@ input[type=checkbox]:checked + label::before {
  }
 
  .paginator-active {
-     border: 2px solid #DBDBDB;
+     border: 3px solid #DBDBDB;
      background-color: #fff;
+     padding: 14px 17px 12px 20px;
  }
 
  .paginator-next {
@@ -993,15 +1042,15 @@ input[type=checkbox]:checked + label:hover::before {
 }
 
 .vk:active {
-    background-image: url(D:/project/1531279-nerds-29/img/vk-icon-active.svg);
+    background-image: url(../img/vk-icon-active.svg);
 }
 
 .fb:active {
-    background-image: url(D:/project/1531279-nerds-29/img/fb-icon-active.svg);
+    background-image: url(../img/fb-icon-active.svg);
 }
 
 .insta:active {
-    background-image: url(D:/project/1531279-nerds-29/img/insta-icon-active.svg);
+    background-image: url(../img/insta-icon-active.svg);
 }
 
 .logo img:active {
@@ -1099,7 +1148,7 @@ input[type=checkbox]:checked + label:active::before {
     cursor: pointer;
     border: 0;
     background: none;
-    background-image: url(D:/project/1531279-nerds-29/img/close-cross.svg);
+    background-image: url(../img/close-cross.svg);
     opacity: 0.3;
     outline: none;
 }
@@ -1134,6 +1183,7 @@ input[type=checkbox]:checked + label:active::before {
     font-weight: bold;
     font-size: 16px;
     line-height: 18px;
+    vertical-align: middle;
 }
 
 .modal-input {
@@ -1148,6 +1198,7 @@ input[type=checkbox]:checked + label:active::before {
     border-radius: 3px;
     width: 360px;
     margin-top: 10px;
+    vertical-align: middle;
 }
 
 .comment {
